@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background-color: cyan;
+	border: 1px solid black;
+	width: 600px;
+	text-align: center;
+	margin: 50px auto;
+}
+ul{
+	list-style: none;
+}
+.item{
+	float: left;
+	padding: 10px;
+	margin: 40px;
+	background-color: red;
+}
+
+//Pseudo Selectors
+
+.item:nth-child(3){
+	background-color: orange;
+}
+.item:first-child{
+	background-color: blueviolet;
+}
+.item:last-child{
+	background-color: yellow;
+}
+
+.main::first-line{
+	color: blue;
+}
+.main::first-letter{
+	font-weight: bold;
+}
+.main::selection{
+	background-color: yellow;
+}
+
+//dada-pota concept
+
+/*.menubar > .item{
+	color: white;
+	background-color: gray;
+}
+*/
+
+
+
+//Hover
+/*.main:hover .main{
+	background-color: greenyellow;
+}
+
+
+.main:hover .item{
+	background-color: magenta;
+}*/
+
+ul li:hover{
+	color: gray;
+}
