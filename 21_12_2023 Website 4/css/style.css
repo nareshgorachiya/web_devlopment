@@ -88,7 +88,7 @@ body{
 .training>.top{
 	background-image: url('../images/gridtile.png'), url('../images/banner-7.jpg');
 }
-.contact_us>.top{
+#contact_us>.top{
 	background-image: url('../images/gridtile.png'), url('../images/4.jpg');
 	background-position: 0% 0%, 0% 50%;
 }
