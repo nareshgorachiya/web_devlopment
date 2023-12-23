@@ -1,8 +1,10 @@
 *{
 	padding: 0px;
 	margin: 0px;
-/*	font-family: 'Roboto Mono', monospace;*/
 	font-family: 'Ubuntu', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
 }
 a{
 	text-decoration: none;
@@ -25,7 +27,7 @@ body{
 	margin: auto;
 }
 /*Header*/
-.header{
+#header{
 	background-image: url("../images/gridtile.png"), url("../images/headerbg.jpg");
 	background-position: auto, center center;
 	background-attachment: fixed, fixed;
@@ -68,24 +70,22 @@ body{
 	border: 0px;
 }
 /*Home*/
-.home{
-}
 .top{
 	background-attachment: fixed,fixed;
 	background-position: 0% 0%, 0% 5%;
 	background-size: auto, cover;
 }
-.home>.top{
+#home>.top{
 	background-image: url('../images/gridtile.png'), url('../images/3.jpg');
 }
-.about_us>.top{
+#about_us>.top{
 	background-image: url('../images/gridtile.png'), url('../images/1.jpg');
 }
-.services>.top{
+#services>.top{
 	background-image: url('../images/gridtile.png'), url('../images/2.jpg');
 	background-position: 0% 0%, 0% 50%;
 }
-.training>.top{
+#training>.top{
 	background-image: url('../images/gridtile.png'), url('../images/banner-7.jpg');
 }
 #contact_us>.top{
