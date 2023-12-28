@@ -72,25 +72,29 @@ body{
 /*Home*/
 .top{
 	background-attachment: fixed,fixed;
-	background-position: 0% 0%, 0% 5%;
-	background-size: auto, cover;
+	background-position: 0% 0%, 40% 20%;
+	background-size: auto, 90% 100%;
 }
 #home>.top{
 	background-image: url('../images/gridtile.png'), url('../images/3.jpg');
+	background-position: 0% 0%, 0% 70%;
+	background-size: auto, 100% 120%;
 }
 #about_us>.top{
 	background-image: url('../images/gridtile.png'), url('../images/1.jpg');
+	background-size: auto, 80% 110%;	
+	background-position: 0% 0%, 60% 0%;
 }
 #services>.top{
 	background-image: url('../images/gridtile.png'), url('../images/2.jpg');
 	background-position: 0% 0%, 0% 50%;
+	background-size:auto, auto ;
 }
 #training>.top{
 	background-image: url('../images/gridtile.png'), url('../images/banner-7.jpg');
 }
 #contact_us>.top{
 	background-image: url('../images/gridtile.png'), url('../images/4.jpg');
-	background-position: 0% 0%, 0% 50%;
 }
 .top>span{
 	font-size: 26px ;
@@ -102,7 +106,7 @@ body{
 	padding: 5px 8px;
 }
 .bottom{
-	padding: 60px 15px;
+	padding-top: 60px;
 	background-color: white;	
 }
 .bottom_text{
@@ -125,23 +129,27 @@ body{
 }
 .back_to_top{
 	text-align: center;
-	margin-top: 50px;
+	color: #182D55;
+	padding: 50px 0px;
 }
 .contact_us>.bottom{
 	padding: 60px 0px 0px 0px;
 	background-color: white;	
 }
-.contact_us .back_to_top{
+ #contact_us .back_to_top{
 	padding: 15px;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.8);
+}
+#contact_us .back_to_top>a:nth-child(1){
+	color: white;
 }
 .back_to_top>a:nth-child(1){
-	color: #182D55;
 	font-size: 22px;
 	text-decoration: underline;
 }
 .back_to_top>a:nth-child(2){
 	font-size: 14px;
+	color: white;
 	padding-top: 10px;
 	display: block;
 	text-decoration: underline;
