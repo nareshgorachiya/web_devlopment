@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border: 0.1px solid red; 
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background: slateblue;
+    /* position: relative; */
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    bottom: 1px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+.item1{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(167, 68, 68);
+}
+.item1:hover .itenA{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(42, 211, 65);
+
+}
+.item1:hover .itenB{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(28, 223, 22);
+}
+.item1:hover .itenC{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+
+}
+.item1:hover .itenD{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+.item1:hover .goal{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    background-color: rgb(223, 211, 211);
+}
+.itenA{
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    transition: 1s;
+    background-color: rgb(223, 211, 211);
+}
+.itenB{
+    width: 0px;
+    height: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    transition: 1s;
+}
+.itenC{
+    width: 0px;
+    height: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    transition: 1s;
+}
+.itenD{
+    width: 0px;
+    height: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    transition: 1s;
+}
+.goal{
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+    border-radius: 50%;
+}

@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.main{
+    width: 1100px;
+    margin: auto;
+    border: 0.1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxes{
+    width: 250px;
+    height: 250px;
+    margin: 15px 0px;
+    border: 0.1px solid black;
+    background-position: center center;
+    background-size: cover;
+}
+.boxes:nth-child(1){
+    background-image: url(images/gallery-tn-04.jpg);
+}
+.boxes:nth-child(2){
+    background-image: url(images/gallery-tn-01.jpg);
+}
+.boxes:nth-child(3){
+    background-image: url(images/gallery-img-06.jpg);
+}
+.boxes:nth-child(4){
+    background-image: url(images/gallery-img-05.jpg);
+}
+.boxes:hover .overlay{
+    visibility: visible;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    visibility: hidden;
+    color: white;
+    text-align: center;
+}
+.overlay>div{
+    padding: 20px 0px;
+}
+.btn{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: black;
+}

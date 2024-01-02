@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: aqua;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+}
+.diagram{
+    position: relative;
+}
+.head{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    background-color: rgba(1, 175, 248, 255);
+}
+.innerHead{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+}
+.eye{
+    width: 35px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.leftEye{
+    position: absolute;
+    top: -30px;
+    left: 38px;
+}
+.rightEye{
+    position: absolute;
+    top: -30px;
+    right: 38px;
+}
+.eye_black{
+    width: 15px;
+    height: 27px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.eye_black_white{
+    width: 7px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    left: 4px;
+}
+.mouth{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 0px 0px 50px 50px;
+    position: absolute;
+    bottom: 18px;
+    left: 30px;
+}
+.nose_line{
+    width: 0px;
+    height: 59px;
+    border-left: 1px solid red;
+    position: absolute;
+    top: 31px;
+    left: 74px;
+}
+.nose{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 19px;
+    left: 64px;
+}
+.nose_white{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.tie{
+    width: 105px;
+    height: 11px;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 201px;
+    left: 198px;
+}
+.tie_bell{
+    width: 14px;
+    height: 14px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 46px;
+}
+.lower{
+    width: 190px;
+    height: 200px;
+    background-color: rgba(1, 175, 248, 255);
+    border: 1px solid black;
+    border-radius: 22% 22% 0% 0%;
+    position: absolute;
+    top: 210px;
+    left: 155px;
+}
+.lower_inner{
+    width: 145px;
+    height: 145px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 23px;
+}
+.pocket{
+    border: 1px solid black;
+    width: 90px;
+    height: 45px;
+    border-radius: 0px 0px 52px 52px;
+    position: absolute;
+    position: absolute;
+    bottom: 12px;
+    left: 26px;
+}
+.lower_line{
+    width: 0px;
+    height: 53px;
+    border-left: 0.5px solid black;
+    position: absolute;
+    bottom: 0px;
+    left: 94px;
+}
+.leg{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+}
+.left_leg{
+    bottom: -15px;
+    left: -7px;
+}
+.right_leg{
+    bottom: -15px;
+    right: -7px;
+}
+.left_hand{
+    width: 28px;
+    height: 95px;
+    border: 1px solid black;
+    background-color: rgba(1, 175, 248, 255);
+    border-radius: 20px;
+    position: absolute;
+    top: 22px;
+    left: -18px;
+}
+.right_hand{
+    width: 95px;
+    height: 28px;
+    border: 1px solid black;
+    background-color: rgba(1, 175, 248, 255);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: -85px;
+}
+.hand_ball{
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.hand_ball_left{
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+}
+.hand_ball_right{
+    position: absolute;
+    bottom: 0px;
+    right: -2px;
+}

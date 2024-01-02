@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.fixed img{
+    width: 50px;
+}
+.main{
+    width: 800px;
+    margin: auto;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px;
+}
+.absolute{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+    position: relative;
+}
+.box_1{
+    border: 10px solid #343362;
+    border-radius: 50%;
+}
+.img1{
+    border: 10px solid white;
+    background: #8288c2;
+    border-radius: 50%;
+}
+.img1>img{
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+}
+.box_2_odd{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+.box_2_even{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
